@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <button id="tap" onclick="btn_on()"><img
+                        src="https://icons.veryicon.com/png/o/miscellaneous/icon-library-1/menu-bar-2.png"
+                        alt=""></button>
+                <img src="https://download.logo.wine/logo/YouTube/YouTube-Logo.wine.png" alt="">
+            </div>
+
+
+
+            <div class="all_input_search">
+
+                <div class="search">
+
+
+                    <div class="input1">
+                        <span class="input_serch">
+                            <a href="">
+                                <img src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt="">
+                            </a>
+                        </span>
+
+                        <input type="text" placeholder="Search">
+                    </div>
+
+                    <div class="nom">
+
+                        <div class="icon11">
+                            <li class="search_icons"><a href=""><img
+                                        src="https://cdn-icons-png.flaticon.com/512/482/482631.png" alt=""></a></li>
+                            <span class="tooltiptext1">Search</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="mik_detail">
+                    <li class="mikrafon" id="mik"><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                    <span class="tooltiptext2">Search with your voice</span>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <div class="pro1">
+                    <li><a href=""><i class="fa-solid fa-video"></i></a></li>
+                    <span class="tool_pro">Create</span>
+                </div>
+                <div class="pro1">
+                    <li><a href=""><i class="fa-regular fa-bell"></i></a></li>
+                    <span class="tool_pro">Create</span>
+                </div>
+                <div class="pro2" onclick="displayNone()">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFpXvGq0PkCcjhwmZZ6Mvj_LXzmiOW7ZRP7A&usqp=CAU"
+                        alt="">
+                </div>
+
+            </div>
+
+            <div class="profile_sidebar">
+                <div class="full">
+                    <div class="username">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFpXvGq0PkCcjhwmZZ6Mvj_LXzmiOW7ZRP7A&usqp=CAU"
+                            alt="">
+
+                        <div class="user_email">
+                            <p>Clay Clay111</p>
+                            <p> @user-um4zm9np7c</p>
+                        </div>
+                    </div>
+                    <div class="manage">
+                        <a href="">Manage your Google Account</a>
+
+                    </div>
+                </div>
+
+                <div class="all_details_link">
+                    <div class="your_channel">
+                        <a href="">
+                            <img src="./photo/black-avatar-person-icons-user-profile-icon-vector.jpg" alt="">
+                            <span>Your channel</span>
+                        </a>
+                        <a href="">
+                            <img src="./photo/youtube-studio-7521639-7197342.png" alt="">
+                            <span>YouTube Studio</span>
+                        </a>
+                        <a href="">
+                            <img src="./photo/80-804723_png-file-svg-profile-picture-square-icon-transparent.png">
+                            <span>Switch account</span>
+                        </a>
+
+                        <a href="../index.html">
+                            <img src="./photo/download (2).png" alt="">
+                            <span>Sign out</span>
+                        </a>
+
+
+                    </div>
+
+                    <div class="your">
+                        <a href="">
+                            <img src="./photo/1194711.png" alt="">
+                            <span>Purchases and memberships</span>
+                        </a>
+                        <a href="">
+                            <img src="./photo/user-profile-icon_318-33925 (1).avif" alt="">
+                            <span>Your data in YouTube</span>
+                        </a>
+                    </div>
+                    <div class="keyboard">
+                        <a href="">
+                            <div class="inf">
+                                <img src="./photo/moon-svgrepo-com.svg" alt="">
+                                <span>Appearance: Device theme</span>
+                            </div>
+
+                            <div class="st"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="inf">
+                                <img src="./photo/download (3).png" alt="">
+                                <span>Language: English</span>
+                            </div>
+
+                            <div class="st"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="inf">
+                                <img src="./photo/download (5).png" alt="">
+                                <span>Restricted Mode: Off</span>
+                            </div>
+
+                            <div class="st"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="inf">
+                                <img src="./photo/free-subscriptions-1781681-1518361.png" alt="">
+                                <span>Location: United States</span>
+                            </div>
+
+                            <div class="st"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="inf">
+                                <img src="./photo/keyboard_119981.png" alt="">
+                                <span>Keyboard shortcuts</span>
+                            </div>
+
+
+                        </a>
+
+                    </div>
+
+                    <div class="setting">
+                        <a href="">
+                            <img src="./photo/126472.png" alt="">
+                            <span>Setting</span>
+                        </a>
+                    </div>
+                    <div class="setting  item">
+                        <a href="">
+                            <img src="./photo/Help_icon-icons.com_55891.png" alt="">
+                            <span>Help</span>
+                        </a>
+                        <a href="">
+                            <img src="./photo/4808951-200.png" alt="">
+                            <span>Send feedback</span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="sidebar">
+
+                <div class="primary_menu">
+                    <a href="">
+                        <img src="./photo/1153028-200.png" alt="">
+                        <p class="t1" data-tooltip="Home">Home</p>
+                    </a>
+
+                    <a href=""><img class="new_icon" src="./photo/YouTube_Shorts_29.png" alt="">
+                        <p class="t1" data-tooltip="Shorts">Shorts</p>
+                    </a>
+                    <a href=""><img class="new_icon" src="./photo/free-subscriptions-1781681-1518361.png" alt="">
+                        <p class="t1" data-tooltip="Subscriptions">Subscriptions</p>
+                    </a>
+                    <a href=""><img class="new_icon" src="./photo/8291168.png" alt="">
+                        <p class="t1" data-tooltip="Library">Library</p>
+                    </a>
+                </div>
+
+
+
+                <div class="home">
+                    <li data-tooltip="Home" class="uy"><a href=""><img src="./photo/3574480-200.png" alt="">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Shorts">
+                        <a href="">
+
+                            <img src="./photo/YouTube_Shorts_29.png" alt="">
+
+                            <p>Shorts</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Subscriptions">
+                        <a href="">
+                            <img src="./photo/free-subscriptions-1781681-1518361.png" alt="">
+
+                            <p>Subscriptions</p>
+                        </a>
+                    </li>
+
+
+                </div>
+
+
+                <div class="home_2">
+                    <li data-tooltip="Library">
+                        <a href="">
+                            <img src="./photo/8291168.png" alt="">
+                            <p>Library</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="History">
+                        <a href="">
+                            <img src="./photo/2961948.png" alt="">
+
+                            <p>History</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Your videos">
+                        <a href="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduF0CLr6NFyx-f2Rk3xJct1ts6VmLlhNuZ51slp8w-2gdKVXx2Xyo82thMQKtKGuYlz8&usqp=CAU"
+                                alt="">
+                            <p>Your videos</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Watch Later"><a href="">
+                            <img src="./photo/clock_hour_minute_second_time_timer_watch_icon_123193.png" alt="">
+
+                            <p>Watch Later</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Liked videos"><a href="">
+                            <img src="./photo/like-icon-0.png" alt="">
+
+                            <p>Liked videos</p>
+                        </a>
+                    </li>
+
+
+
+                </div>
+
+                <div class="subs_video">
+
+                    <div class="all_sub_li">
+                        <h1>Subscriptions</h1>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                        <li data-tooltip="Texnoplov"><a href=""> <img
+                                    src="https://yt3.googleusercontent.com/Jw-CVsWn2KguiHUoxBsa-0ZF_7pGBBj_kVKn0aoh8zLUWaA87RNmlsfe8rkW6waLkTpVhPuv=s176-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <p>Texnoplov</p>
+                            </a>
+                        </li>
+                    </div>
+
+                    <li class="arrow" data-tooltip="Show more">
+                        <a href=""> <i class="bi bi-chevron-down"></i> </a>
+                        <p>Show more</p>
+                    </li>
+                </div>
+
+
+                <div class="home_3">
+                    <h2>
+                        Explore
+                    </h2>
+                    <li data-tooltip="Trending" class="no"><a href="">
+                            <img src="./photo/4361157-200.png" alt="">
+
+                            <p>Trending</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Music" class="no1"><a href="">
+                            <img src="./photo/23292-200.png" alt="">
+
+                            <p>Music</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Live" class="no2"><a href="">
+                            <img src="./photo/live-icon-512x376-swbqg3p5.png" alt="">
+
+                            <p>Live</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Game" class="no"><a href="">
+                            <img src="./photo/free-youtube-gaming-4627159-3853350.webp" alt="">
+
+                            <p>Game</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Sports" class="no"><a href="">
+                            <img src="./photo/110514.png" alt="">
+
+                            <p>Sports</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Learning" class="no"><a href="">
+                            <img src="./photo/bright-light-bulb.svg" alt="">
+
+                            <p>Learning</p>
+                        </a>
+                    </li>
+                    <li data-tooltip="Fashion & Beauty" class="no"><a href="">
+                            <img src="./photo/4659616.png" alt="">
+
+                            <p>Fashion & Beauty</p>
+                        </a>
+                    </li>
+
+
+                </div>
+
+                <div class="make_youtube">
+                    <h1>
+                        More from YouTube
+                    </h1>
+                    <a href="" data-tooltip="YouTube Studio">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduF0CLr6NFyx-f2Rk3xJct1ts6VmLlhNuZ51slp8w-2gdKVXx2Xyo82thMQKtKGuYlz8&usqp=CAU"
+                            alt="">
+                        <p>YouTube Studio</p>
+                    </a>
+                    <a href="" data-tooltip="YouTube Studio">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduF0CLr6NFyx-f2Rk3xJct1ts6VmLlhNuZ51slp8w-2gdKVXx2Xyo82thMQKtKGuYlz8&usqp=CAU"
+                            alt="">
+                        <p>YouTube Studio</p>
+                    </a>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+            <div class="make_video">
+
+
+
+
+
+
+
+                <div class="scrollable-tabs-container" id="#side_1">
+                    <div class="left-arrow "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </div>
+                    <ul>
+                        <li><a class="active" href="#">All</a></li>
+                        <li><a href="#">Mixes</a></li>
+                        <li><a href="#">Gaming</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">Grammar</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Playlists</a></li>
+                        <li><a href="#">AMVs</a></li>
+                        <li><a href="#">Lectures</a></li>
+                        <li><a href="#">House music</a></li>
+                        <li><a href="#">Live</a></li>
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">AI</a></li>
+                        <li><a href="#">Gadgets</a></li>
+                        <li><a href="#">Sales</a></li>
+                        <li><a href="#">Sewing</a></li>
+                        <li><a href="#">PUBG Mobile</a></li>
+                        <li><a href="#">Recently upload</a></li>
+                        <li><a href="#">Watched</a></li>
+                        <li><a href="#">New to you</a></li>
+                    </ul>
+                    <div class="right-arrow active">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+
+                    </div>
+                </div>
+
+
+                <div class="video">
+                    <div class="all_video">
+
+
+
+                        <div class="watch_vid">
+
+                            <iframe border-radius="10px" src="https://www.youtube.com/embed/eqGvMtBjrEg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+                        <div class="watch_vid">
+
+                            <iframe border-radius="10px" src="https://www.youtube.com/embed/eqGvMtBjrEg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+                        <div class="watch_vid">
+
+                            <iframe border-radius="10px" src="https://www.youtube.com/embed/eqGvMtBjrEg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+                        <div class="watch_vid">
+
+                            <iframe width="350px" height="230px" border-radius="10px"
+                                src="https://www.youtube.com/embed/eqGvMtBjrEg" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+                        <div class="watch_vid">
+
+                            <iframe width="350px" height="230px" border-radius="10px"
+                                src="https://www.youtube.com/embed/eqGvMtBjrEg" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+                        <div class="watch_vid">
+
+                            <iframe border-radius="10px" src="https://www.youtube.com/embed/eqGvMtBjrEg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="t">
+                                <img src="https://yt3.ggpht.com/jd3pEck7ML-MyDMxfFwGsxgY3dy-EPmNbKlEGjCgbyq5BdPf7_XChffRlvzWhPJUXBlxXnvA=s68-c-k-c0x00ffffff-no-rj"
+                                    alt="">
+                                <h1>Top 10 Songs of Neffex | Best of Neffex</h1>
+                            </div>
+                            <div class="infrom">
+                                <p>NEFFEX FREE MUSIC</p>
+                                <p>125K views 1 month ago</p>
+                            </div>
+
+                        </div>
+
+                        <div class="short_video">
+                            <div class="video_1">
+                                <iframe  src="https://www.youtube.com/embed/-7z0An8hKR8" title="Simple Age Calculator in HTML and JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                                <div class="video_title">
+                                    <p>Top 10 Songs of Neffex | Best of Neffex</p>
+                                    <span>15M veiws</span>
+                                    
+                                </div>
+    
+    
+    
+    
+                            </div>
+                            <div class="video_1">
+                                <iframe  src="https://www.youtube.com/embed/-7z0An8hKR8" title="Simple Age Calculator in HTML and JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                                <div class="video_title">
+                                    <p>Top 10 Songs of Neffex | Best of Neffex</p>
+                                    <span>15M veiws</span>
+                                    
+                                </div>
+    
+    
+    
+    
+                            </div>
+                            <div class="video_1">
+                                <iframe  src="https://www.youtube.com/embed/-7z0An8hKR8" title="Simple Age Calculator in HTML and JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                                <div class="video_title">
+                                    <p>Top 10 Songs of Neffex | Best of Neffex</p>
+                                    <span>15M veiws</span>
+                                    
+                                </div>
+    
+    
+    
+    
+                            </div>
+                            <div class="video_1">
+                                <iframe  src="https://www.youtube.com/embed/-7z0An8hKR8" title="Simple Age Calculator in HTML and JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+                                <div class="video_title">
+                                    <p>Top 10 Songs of Neffex | Best of Neffex</p>
+                                    <span>15M veiws</span>
+                                    
+                                </div>
+    
+    
+    
+    
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+
+                    
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
